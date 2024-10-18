@@ -148,39 +148,38 @@ button:hover {
 .text {
     display: flex;
     flex-direction: column;
-    gap: 0.8854vw;
+    gap: 2vw;
 }
 
 
 .text > .heading {
     font-weight: 600;
-    font-size: 4.5057vw;
-    line-height: 4.551vw;
+    font-size: 7vw;
+    line-height: 6.5vw;
 }
 
 .text > p {
     font-family: "Noto Sans", sans-serif;
     line-height: 1.3542vw;
-    font-size: 1.2693vw;
-    line-height: 1.65vw;
+    font-size: 3vw;
+    line-height: normal;
     letter-spacing: 0.0365vw;
     margin: 0;
 }
-
 .p {
     display: flex;
     flex-direction: column;
-    gap: 2.6042vw;
+    gap: 5.6042vw;
     padding-left: 14.0625vw;
 }
 
 .p button {
-
+    transform-origin: left;
     padding: 1.27vw 3.173vw;
     gap: 0.6344vw;
-    font-size: 1.143vw;
+    font-size: 1.5vw;
     font-weight: 500;
-    line-height: 1.7135vw;
+    line-height: normal;
 }
 
 /* hero end */
