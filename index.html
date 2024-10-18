@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+        
+        </style>
+    <title>08 Flytt</title>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <header>
+        <img src="images/logo.svg" alt="08 Flytt" id="logo">
+        <div class="tabs">
+        </div>
+        <div class="cta">
+            <div id="phone-cta">
+                <img src="images/phone.svg" alt="phone">
+                <span>08 - 26 80 40</span>
+            </div>
+            <button id="offer-btn">Offertförfrågan</button>
+        </div>
+        <button id="mobile-menu" onclick="showDiv()"><img src="images/bars-solid.svg"></button>
+        <div id="menu">
+            <a href="#">Hjem</a>
+            <a href="#">Om oss</a>
+        </div>
+    </header>
+    <div id="hero">
+        <div class="p">
+            <div class="text">
+                <div id="title">
+                    <img src="images/package.svg">
+                    <div>FLYTTFIRMA STOCKHOLM</div>
+                </div>
+                <div class="heading">En av Stockholms ledande flyttfirmor</div>
+                <p>Välkommen till 08 Flytt, en pålitlig flyttfirma i Stockholm med yrkesskickliga medarbetare och stort fokus på kundnöjdhet.</p>
+            </div>
+            <div class="badges">
+                <img src="images/badges.png">
+            </div>
+        </div>
+        <div id="form">
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Namn" required>
+                <input type="tel" name="tele" placeholder="Telefon" required>
+                <input type="email" name="email" placeholder="E-Post" required>
+                <textarea rows="5" cols="33" name="message" placeholder="Medellande" required></textarea>
+                <button type="submit">Skicka</button>
+            </form>
+        </div>
+    </div>
+    <div id="p-area">
+        <img src="images/p-img.png">
+        <div id="para">
+            <div id="para-text">
+                <h1>Det här är vi</h1>
+                <p>I över 25 år har 08 Flytt grundare, Bror, arbetat i flyttbranschen, men erfarenheten började tidigare än så.... nämligen under uppväxten med en far, som drev en av flyttfirma redan på 80-talet och 30år framåt.</p>
+                <p>Uppväxten präglades sedan barnsben av en yrkesstolthet i entreprenörskapets anda och inte minst lärde sig Bror under alla sommarjobb från 1994 och framåt allt som behövs för att driva en flyttfirma på bästa sätt!</p>
+                <p>
+                    Drömmen om att fortsätta i samma spår som sin far kom tidigt. Efter att ha arbetat praktiskt taget hela livet inom flyttbranschen startades 2010 äntligen 08 Flytt. <br>
+                    Vi har nu 14 års erfarenhet, fortsätter i familjeregi med både söner och sambo i företeget och är därmed säkra på att firman besitter den erfarenhet och kompetens som marknaden och du som kund efterfrågar.
+                </p>
+                <p>Vårt mål är att alltid överträffa kundens förväntningar och göra just dig till vår bästa referens. Flytta med oss, vi finns här för dig oavsett vart du är eller ska i livet! Med vår erfarenhet lovar vi dig att inte \göra dig besviken. <br>
+                    Välkommen kontakta oss!</p>
+                <div>Bror, VD och Grundare,</div>
+            </div>
+            <button>Offertförfrågan</button>
+        </div>
+    </div>
+    <div id="grids">
+        <div class="grid">
+            <div class="inner">
+                <div>Bohagsflytt</div>
+                <p>Trygg & smidig flytthjälp i Stockholm för dig som byter bostad</p>
+            </div>
+            <button>Läs mer</button>
+        </div>
+        <div class="grid">
+            <div class="inner">
+                <div>Kontorsflytt</div>
+                <p>Effektiv & komplett flyttservice för kontor & företag</p>
+            </div>
+            <button>Läs mer</button>
+        </div>
+        <div class="grid">
+            <div class="inner">
+                <div>Bärhjälp</div>
+                <p>Professionell bärhjälp för företag. Välj bland en rad kvalitetssäkrade tjänster.</p>
+            </div>
+            <button>Läs mer</button>
+        </div>
+        <div class="grid">
+            <div class="inner">
+                <div>Pianoflytt</div>
+                <p>Vi hjälper dig att flytta ditt piano, flygel eller orgel. Vi utför ca 20 pianotransporter i veckan och vågar påstå att vi är experter inom pianotransport.</p>
+            </div>
+            <button>Läs mer</button>
+        </div>
+        <div class="grid">
+            <div class="inner">
+                <div>Flytthjälp</div>
+                <p>Behöver du flytthjälp? Vi erbjuder trygga, smidiga och effektiva flyttar anpassade efter dina behov.</p>
+            </div>
+            <button>Läs mer</button>
+        </div>
+        <div class="grid">
+            <div class="inner">
+                <div>Flyttstädning</div>
+                <p>Få en bekymmersfri flytt med professionell flyttstädning. Vi erbjuder städgaranti.</p>
+            </div>
+            <button>Läs mer</button>
+        </div>
+    </div>
+    <div id="reviews">
+        <div id="endorsement">
+            <img src="images/badge.png">
+            <div>Flytta med stil tillsammans med en av Sveriges mest rekommenderade flyttfirmor</div>
+            <img src="images/arrow.svg">
+            <span>Våra kunder uppskattar oss. Många av våra nya uppdrag kommer genom rekommendationer. Vi har hundratals recensioner att läsa på Reco, där vi samlar verifierade omdömen. Det innebär att alla omdömen om oss kommer från verkliga kunder, vilket garanterar äktheten i deras erfarenheter med oss.</span>
+        </div>
+        <div id="box-container">
+            <div class="box">
+                <img src="images/circles.png">
+                <div>Jag är verkligen imponerad av 08 Flytt! De var snabba, professionella och tog hand om mina saker som om de vore deras egna. Allt gick smidigt från början till slut, och personalen var trevlig och hjälpsam.</div>
+                <div>
+                    <div class="username">
+                        <div>Robin T</div>
+                        <div>16 veckor</div>
+                    </div>
+                    <div class="verification">
+                        <img src="images/userprofile.png">
+                        <div>Verifierad kund</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/circles.png">
+                <div>Jag är verkligen imponerad av 08 Flytt! De var snabba, professionella och tog hand om mina saker som om de vore deras egna. Allt gick smidigt från början till slut, och personalen var trevlig och hjälpsam.</div>
+                <div>
+                    <div class="username">
+                        <div>Robin T</div>
+                        <div>16 veckor</div>
+                    </div>
+                    <div class="verification">
+                        <img src="images/userprofile.png">
+                        <div>Verifierad kund</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/circles.png">
+                <div>Jag är verkligen imponerad av 08 Flytt! De var snabba, professionella och tog hand om mina saker som om de vore deras egna. Allt gick smidigt från början till slut, och personalen var trevlig och hjälpsam.</div>
+                <div>
+                    <div class="username">
+                        <div>Robin T</div>
+                        <div>16 veckor</div>
+                    </div>
+                    <div class="verification">
+                        <img src="images/userprofile.png">
+                        <div>Verifierad kund</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/circles.png">
+                <div>Jag är verkligen imponerad av 08 Flytt! De var snabba, professionella och tog hand om mina saker som om de vore deras egna. Allt gick smidigt från början till slut, och personalen var trevlig och hjälpsam.</div>
+                <div>
+                    <div class="username">
+                        <div>Robin T</div>
+                        <div>16 veckor</div>
+                    </div>
+                    <div class="verification">
+                        <img src="images/userprofile.png">
+                        <div>Verifierad kund</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="offer">
+        <div id="banner">
+            <div>FÅ OFFERT</div>
+            <div>Fyll i kontaktformuläret nedan så kommer vi höra av oss inom 24 timmar. Det går självklart även bra att ringa!</div>
+        </div>
+        <div id="forms">
+            <div class="form-container">
+                <div>Flyttar från</div>
+                <form action="#" method="POST">
+                    <input type="text" placeholder="Adress" required>
+                    <fieldset>
+                        <input type="text" placeholder="Postnummer" required>
+                        <input type="text" placeholder="Ort" required>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="form-container">
+                <div>Flyttar till</div>
+                <form action="#" method="POST">
+                    <input type="text" placeholder="Adress" required>
+                    <fieldset>
+                        <input type="text" placeholder="Postnummer" required>
+                        <input type="text" placeholder="Ort" required>
+                    </fieldset>
+                    <button>Nästa</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="lower-banner">
+        <div id="banner-left">
+            <div class="text">
+                <div>Flytta Tryggt <br> och Säkert Med <br> Oss i Hela Stockholm</div>
+                <p>I Stockholm med omnejd erbjuder vi följande flyttjänster för privatpersoner.</p>
+            </div>
+            <button>Kontakta Oss</button>
+        </div>
+        <div id="banner-right">
+            <div class="b-container">
+                <img src="images/insurance.svg">
+                <span>FÖRSÄKRING</span>
+            </div>
+            <div class="b-container">
+                <img src="images/rut.svg">
+                <span>RUT-AVDRAG</span>
+            </div>
+            <div class="b-container">
+                <img src="images/customers.svg">
+                <span>NÖJDA KUNDER</span>
+            </div>
+            <div class="b-container">
+                <img src="images/licensed.svg">
+                <span>TRAFIKTILLSTÅND</span>
+            </div>
+            <div class="b-container">
+                <img src="images/verified.svg">
+                <span>KVALIFICERAD PERSONAL</span>
+            </div>
+            <div class="b-container">
+                <img src="images/discount.svg">
+                <span>10% RABATT</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footing">
+            <div id="copyright">
+                <img src="images/copyright.svg">
+                <span>Copyright © 2024 • 08 flytt</span>
+            </div>
+            <div id="info">
+                <div>INFORMATION</div>
+                <button><img src="images/w-phone.svg">08 - 26 80 40</button>
+                <span>
+                    <p>Stockholm, Sweden</p>
+                    <a href="mailto:info@08flytt.se">info@08flytt.se</a>
+                </span>
+            </div>
+            <div id="nav">
+                <span>NAVIGATION</span>
+                <ul>
+                    <li><a href="#">Start</a></li>
+                    <li><a href="#">Om oss</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </div>
+            <div id="links">
+                <img src="images/instagram.svg">
+                <img src="images/x.svg">
+                <img src="images/fb.svg">
+                <img src="images/yt.svg">
+            </div>
+        </div>
+    </footer>
+    <script>// Get the button:
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+        
+        function showDiv() {
+            var x = document.getElementById("menu");
+            if (x.style.display === "none") {
+                x.style.display = "inline-flex";
+            } else {
+                    x.style.display = "none";
+            }
+}
+        
+        
+        </script>
+</body>
+</html>
